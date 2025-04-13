@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 {% include header.html %}
+{% include head_custom.html %}
+
+
+
 About Our DApp
 We are a team building the future of decentralization. Our mission is to empower users with secure, transparent technology.
 Founded: 2025

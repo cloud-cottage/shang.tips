@@ -3,6 +3,9 @@ layout: default
 title: My DApp Showcase
 ---
 {% include header.html %}
+{% include head_custom.html %}
+
+
 
 # Welcome to Our DApp
 

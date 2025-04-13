@@ -1,0 +1,31 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+header.page-header {
+  background: linear-gradient(120deg, #1a2a6c, #b21f1f, #fdbb2d) !important;
+  color: white !important;
+}
+.project-name {
+  font-size: 3em;
+}
+.project-tagline {
+  font-size: 1.5em;
+}
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  background: #1a2a6c;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
