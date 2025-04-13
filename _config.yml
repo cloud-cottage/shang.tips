@@ -4,3 +4,5 @@ baseurl: "/shang.tips"
 url: "https://cloud-cottage.github.io"
 theme: jekyll-theme-cayman
 show_downloads: false
+sass:
+  sass_dir: assets/css
