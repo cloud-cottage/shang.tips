@@ -1,6 +1,7 @@
 ```markdown
 layout: default
 title: My DApp Showcase
+{% include header.html %}
 Welcome to Our DApp
 A decentralized application revolutionizing blockchain technology.
 Key Features
@@ -12,4 +13,3 @@ Cross-Chain Support: Ethereum, Polygon, and more.
 
 Learn More (/shang.tips/about/) | Read Our Blog (/shang.tips/blog/) | Whitepaper (/shang.tips/whitepaper/)
 ```
-
