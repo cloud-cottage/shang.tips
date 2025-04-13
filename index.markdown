@@ -2,6 +2,7 @@
 layout: default
 title: My DApp Showcase
 {% include header.html %}
+
 Welcome to Our DApp
 A decentralized application revolutionizing blockchain technology.
 Key Features
