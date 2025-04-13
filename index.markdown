@@ -1,13 +1,13 @@
 ---
 layout: default
-title: My DApp Showcase
+title: Less is More, Peg is Core.
 ---
 {% include header.html %}
 {% include head_custom.html %}
 
 
 
-# Welcome to Our DApp
+# Why SHANG?
 
 A decentralized application revolutionizing blockchain technology.
 
