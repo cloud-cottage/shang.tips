@@ -1,8 +1,4 @@
 title: My DApp Showcase
-description: A decentralized application built for the future.
-baseurl: "/shang.tips"  # 必须匹配仓库名
+baseurl: "/shang.tips"
 url: "https://cloud-cottage.github.io"
-theme: jekyll-theme-minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: minima
