@@ -1,6 +1,8 @@
+---
 layout: default
 title: "Introducing Our DApp"
 date: 2025-04-13
+---
 {% include header.html %}
 
 

@@ -1,13 +1,16 @@
+---
 layout: default
 title: My DApp Showcase
+---
 {% include header.html %}
+
 # Welcome to Our DApp
+
 A decentralized application revolutionizing blockchain technology.
-Key Features
-Decentralized Governance: Community-driven decisions.
 
-Secure Transactions: Powered by smart contracts.
+## Key Features
+- **Decentralized Governance**: Community-driven decisions.
+- **Secure Transactions**: Powered by smart contracts.
+- **Cross-Chain Support**: Ethereum, Polygon, and more.
 
-Cross-Chain Support: Ethereum, Polygon, and more.
-
-Learn More (/shang.tips/about/) | Read Our Blog (/shang.tips/blog/) | Whitepaper (/shang.tips/whitepaper/)
+[Learn More](/shang.tips/about/) | [Read Our Blog](/shang.tips/blog/) | [Whitepaper](/shang.tips/whitepaper/)
