@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   font-family: 'Arial', sans-serif;
 }
@@ -7,7 +8,12 @@ header.page-header {
 }
 .project-name {
   font-size: 3em;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
+
 .project-tagline {
   font-size: 1.5em;
 }
@@ -29,4 +35,3 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-@import "{{ site.theme }}";
