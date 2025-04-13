@@ -1,6 +1,14 @@
+内容：
 ```markdown
-layout: page
+layout: default
 title: About
 permalink: /about/
-Our DApp is built to empower users with decentralized technology. Contact us at support@dapp.com.
+About Our DApp
+We are a team building the future of decentralization. Our mission is to empower users with secure, transparent technology.
+Founded: 2025
 
+Focus: Blockchain, DeFi, NFTs
+
+Contact: support@dapp.com
+
+```

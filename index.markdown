@@ -1,7 +1,15 @@
 ```markdown
-layout: home
-title: Home
-My DApp Showcase
-This is the official website for our decentralized application. Explore our blog (/blog/) or learn more about us (/about/).
-Stay tuned for updates!
+layout: default
+title: My DApp Showcase
+Welcome to Our DApp
+A decentralized application revolutionizing blockchain technology.
+Key Features
+Decentralized Governance: Community-driven decisions.
+
+Secure Transactions: Powered by smart contracts.
+
+Cross-Chain Support: Ethereum, Polygon, and more.
+
+Learn More (/shang.tips/about/) | Read Our Blog (/shang.tips/blog/) | Whitepaper (/shang.tips/whitepaper/)
+```
 

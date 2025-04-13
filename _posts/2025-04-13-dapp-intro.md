@@ -1,10 +1,13 @@
 ```markdown
-layout: post
+layout: default
 title: "Introducing Our DApp"
 date: 2025-04-13
-Welcome to our decentralized application! Key features include:
-Decentralized governance
+Introducing Our DApp
+Our DApp is live! Key features include:
+Decentralized identity
 
-Secure transactions
+Smart contract integration
 
-User-friendly interface
+Cross-chain support
+
+```
