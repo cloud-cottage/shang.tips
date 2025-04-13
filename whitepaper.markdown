@@ -1,4 +1,4 @@
-```markdown
+
 layout: default
 title: Whitepaper
 permalink: /whitepaper/
@@ -8,5 +8,3 @@ Explore our vision and technical details.
 Download Whitepaper
 
 
-
-```

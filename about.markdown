@@ -1,4 +1,4 @@
-```markdown
+
 layout: default
 title: About
 permalink: /about/
@@ -11,4 +11,3 @@ Focus: Blockchain, DeFi, NFTs
 
 Contact: support@dapp.com
 
-```
