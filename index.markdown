@@ -7,7 +7,7 @@ title: Less is More, Peg is Core.
 
 
 
-# Why SHANG?
+# Why Shang?
 
 A decentralized application revolutionizing blockchain technology.
 
