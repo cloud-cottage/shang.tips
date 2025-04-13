@@ -1,5 +1,3 @@
-@import "{{ site.theme }}";
-
 body {
     font-family: 'Arial', sans-serif;
   }
@@ -31,3 +29,4 @@ body {
   nav a:hover {
     text-decoration: underline;
   }
+  @import "{{ site.theme }}";
