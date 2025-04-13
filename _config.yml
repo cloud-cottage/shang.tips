@@ -1,8 +1,8 @@
 title: One Shang
 description: A decentralized application built for the future.
-baseurl: ""  # 如果用项目仓库（如 my-dapp-site），改为 "/my-dapp-site"
-url: "https://cloud-cottage.github.io/shang.tips"
-theme: jekyll-theme-minima  # 使用 GitHub Pages 支持的默认主题
+baseurl: "/shang.tips"  # 必须匹配仓库名
+url: "https://cloud-cottage.github.io"
+theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
