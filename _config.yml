@@ -1,0 +1,8 @@
+title: My DApp Showcase
+description: A decentralized application built for the future.
+baseurl: ""  # 如果用项目仓库（如 my-dapp-site），改为 "/my-dapp-site"
+url: "https://michellegu.github.io"
+theme: jekyll-theme-minima  # 使用 GitHub Pages 支持的默认主题
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
