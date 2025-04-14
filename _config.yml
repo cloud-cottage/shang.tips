@@ -2,6 +2,8 @@
 theme: jekyll-theme-cayman
 title: Shang - Web3 Social Tipping
 description: Less is More, Peg is Core
+baseurl: "/shang.tips"
+url: "https://cloud-cottage.github.io"
 
 # Multilingual Settings
 languages: ["en", "zh-cn"]
@@ -10,10 +12,7 @@ exclude_from_localizations: ["assets", "css", "js", "_posts"]
 # Permalink Structure
 permalink: /:lang/:path/:basename:output_ext
 collections:
-  en:
-    output: true
-    permalink: /en/:path/:basename:output_ext
-  zh:
+  cn:
     output: true
     permalink: /zh/:path/:basename:output_ext
   posts:

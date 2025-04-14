@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 壹赏 - 简极致丰，稳极致胜
-lang: zh-cn
+description: 简极致丰，稳极致胜
 permalink: /cn/
+lang: zh-cn
 ---
 {% include header.html %}
 {% include head_custom.html %}
