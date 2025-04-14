@@ -4,7 +4,7 @@ title: Shang - Web3 Social Tipping
 description: Less is More, Peg is Core
 
 # Multilingual Settings
-languages: ["en", "zh"]
+languages: ["en", "zh-cn"]
 exclude_from_localizations: ["assets", "css", "js", "_posts"]
 
 # Permalink Structure

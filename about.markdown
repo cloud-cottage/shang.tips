@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 有关壹赏
-lang: zh
-permalink: /zh/about/
+title: About Shang
+lang: en
+permalink: /about/
 ---
 {% include header.html %}
 {% include head_custom.html %}

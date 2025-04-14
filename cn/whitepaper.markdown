@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 项目计划书
-lang: zh
-permalink: /zh/whitepaper/
+lang: zh-cn
+permalink: /cn/whitepaper/
 ---
 {% include header.html %}
 {% include head_custom.html %}

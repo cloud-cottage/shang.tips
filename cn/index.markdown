@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 壹赏 - 简极致丰，稳极致胜
-lang: zh
-permalink: /zh/
+lang: zh-cn
+permalink: /cn/
 ---
 {% include header.html %}
 {% include head_custom.html %}
