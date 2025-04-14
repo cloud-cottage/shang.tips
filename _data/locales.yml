@@ -1,8 +1,8 @@
 en:
-  name: 中文
-  switch_to: English
-  url: /
-zh-cn:
   name: English
   switch_to: 中文
   url: /cn
+zh-cn:
+  name: 中文
+  switch_to: English
+  url: /
