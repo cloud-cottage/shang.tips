@@ -10,14 +10,14 @@ languages: ["en", "zh-cn"]
 exclude_from_localizations: ["assets", "css", "js", "_posts"]
 
 # Permalink Structure
-permalink: /:lang/:path/:basename:output_ext
+permalink: /:path/:basename:output_ext
 collections:
   cn:
     output: true
-    permalink: /zh/:path/:basename:output_ext
+    permalink: /cn/:path/:basename:output_ext
   posts:
     output: true
-    permalink: /:lang/blog/:year/:month/:day/:title:output_ext
+    permalink: /blog/:year/:month/:day/:title:output_ext
     
 # others
 show_downloads: false

@@ -10,12 +10,15 @@
     <header class="page-header">
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
-      <!-- 语言切换器 -->
       <nav class="language-switcher">
         {% for lang in site.languages %}
           {% assign lang_data = site.data.locales[lang] %}
           {% if lang != page.lang %}
-            <a href="{{ lang_data.url }}{{ page.url | remove_first: page.lang | remove: '/en' | remove: '/zh' }}">{{ lang_data.switch_to }}</a>
+            {% if lang == 'en' %}
+              <a href="{{ site.baseurl }}{{ page.url | replace: '/cn', '' | remove: '/cn/' }}">{{ lang_data.switch_to }}</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/cn{{ page.url | replace: '/cn', '' | remove: '/cn/' }}">{{ lang_data.switch_to }}</a>
+            {% endif %}
           {% else %}
             <span>{{ lang_data.name }}</span>
           {% endif %}
