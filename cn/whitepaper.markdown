@@ -2,7 +2,7 @@
 layout: default
 title: 项目计划书
 permalink: /cn/whitepaper/
-lang: zh-cn
+lang: zh_cn
 ---
 {% include header.html %}
 {% include head_custom.html %}

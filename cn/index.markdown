@@ -3,7 +3,7 @@ layout: default
 title: 壹赏 - 简极致丰，稳极致胜
 description: 简极致丰，稳极致胜
 permalink: /cn/
-lang: zh-cn
+lang: zh_cn
 ---
 {% include header.html %}
 {% include head_custom.html %}

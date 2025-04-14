@@ -2,7 +2,7 @@
 layout: default
 title: 有关壹赏
 permalink: /cn/about/
-lang: zh-cn
+lang: zh_cn
 ---
 {% include header.html %}
 {% include head_custom.html %}

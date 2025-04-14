@@ -6,7 +6,7 @@ baseurl: "/shang.tips"
 url: "https://cloud-cottage.github.io"
 
 # Multilingual Settings
-languages: ["en", "zh-cn"]
+languages: ["en", "zh_cn"]
 exclude_from_localizations: ["assets", "css", "js", "_posts"]
 
 # Permalink Structure
