@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: About Shang
+lang: en
 permalink: /about/
 ---
 {% include header.html %}

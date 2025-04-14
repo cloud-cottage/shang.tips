@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Less is More, Peg is Core.
+lang: en
 ---
 {% include header.html %}
 {% include head_custom.html %}

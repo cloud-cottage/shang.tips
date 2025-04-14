@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Whitepaper
+lang: en
 permalink: /whitepaper/
 ---
 {% include header.html %}

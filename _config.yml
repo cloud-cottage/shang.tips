@@ -1,5 +1,15 @@
-title: Shang
-description: A decentralized application built for the future
+# 基本设置
+theme: jekyll-theme-cayman
+title: Shang - Web3 Social Tipping
+description: Less is More, Peg is Core
+
+# 多语言设置
+languages: ["en", "zh"]
+exclude_from_localizations: ["assets", "css", "js"] # 排除不需要翻译的文件夹
+
+# GitHub Pages 默认设置
+permalink: /:path/:basename:output_ext
+
 baseurl: "/shang.tips"
 url: "https://cloud-cottage.github.io"
 show_downloads: false

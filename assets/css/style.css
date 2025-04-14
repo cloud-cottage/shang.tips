@@ -1,0 +1,14 @@
+.language-switcher {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .language-switcher a {
+    color: #159957;
+    text-decoration: none;
+  }
+  .language-switcher a:hover {
+    text-decoration: underline;
+  }
+  .language-switcher span {
+    color: #666;
+  }
