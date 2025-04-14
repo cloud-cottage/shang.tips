@@ -1,17 +1,26 @@
-# 基本设置
+# Basic Settings
 theme: jekyll-theme-cayman
 title: Shang - Web3 Social Tipping
 description: Less is More, Peg is Core
 
-# 多语言设置
+# Multilingual Settings
 languages: ["en", "zh"]
-exclude_from_localizations: ["assets", "css", "js"] # 排除不需要翻译的文件夹
+exclude_from_localizations: ["assets", "css", "js", "_posts"]
 
-# GitHub Pages 默认设置
-permalink: /:path/:basename:output_ext
-
-baseurl: "/shang.tips"
-url: "https://cloud-cottage.github.io"
+# Permalink Structure
+permalink: /:lang/:path/:basename:output_ext
+collections:
+  en:
+    output: true
+    permalink: /en/:path/:basename:output_ext
+  zh:
+    output: true
+    permalink: /zh/:path/:basename:output_ext
+  posts:
+    output: true
+    permalink: /:lang/blog/:year/:month/:day/:title:output_ext
+    
+# others
 show_downloads: false
 sass:
   style: compressed
