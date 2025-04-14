@@ -1,7 +1,7 @@
 en:
   name: English
   switch_to: 中文
-  url: /cn/
+  url: /cn
 zh:
   name: 中文
   switch_to: English
