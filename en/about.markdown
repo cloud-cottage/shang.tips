@@ -2,7 +2,7 @@
 layout: default
 title: About Shang
 lang: en
-permalink: /about/
+permalink: /en/about/
 ---
 {% include header.html %}
 {% include head_custom.html %}

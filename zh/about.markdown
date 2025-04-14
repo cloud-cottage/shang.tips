@@ -2,7 +2,7 @@
 layout: default
 title: 有关壹赏
 lang: zh
-permalink: /about/
+permalink: /zh/about/
 ---
 {% include header.html %}
 {% include head_custom.html %}

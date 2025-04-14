@@ -2,7 +2,7 @@
 layout: default
 title: 项目计划书
 lang: zh
-permalink: /whitepaper/
+permalink: /zh/whitepaper/
 ---
 {% include header.html %}
 {% include head_custom.html %}

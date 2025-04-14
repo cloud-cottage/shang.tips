@@ -2,7 +2,7 @@
 layout: default
 title: Whitepaper
 lang: en
-permalink: /whitepaper/
+permalink: /en/whitepaper/
 ---
 {% include header.html %}
 {% include head_custom.html %}
