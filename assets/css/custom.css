@@ -12,7 +12,6 @@
   .page-header {
     padding: 2em;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     background: none;
   }
   .project-name {
@@ -99,4 +98,7 @@
   .main-content h3 {
     font-family: 'Crimson Text', serif;
     color: #f7c948;
+  }
+  p {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
