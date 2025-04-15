@@ -1,7 +1,8 @@
 <nav>
-    <ul>
-      <li><a href="/shang.tips/">Home</a></li>
-      <li><a href="/shang.tips/about/">About</a></li>
-      <li><a href="/shang.tips/whitepaper/">Whitepaper</a></li>
-    </ul>
+  <ul>
+    {% assign nav_items = site.data.locales[page.lang | default: 'en'].nav %}
+    <li><a href="{% if page.lang == 'zh-cn' %}{{ site.baseurl }}/cn/{% else %}{{ site.baseurl }}/{% endif %}">{{ nav_items.home }}</a></li>
+    <li><a href="{% if page.lang == 'zh-cn' %}{{ site.baseurl }}/cn/about/{% else %}{{ site.baseurl }}/about/{% endif %}">{{ nav_items.about }}</a></li>
+    <li><a href="{% if page.lang == 'zh-cn' %}{{ site.baseurl }}/cn/whitepaper/{% else %}{{ site.baseurl }}/whitepaper/{% endif %}">{{ nav_items.whitepaper }}</a></li>
+  </ul>
 </nav>

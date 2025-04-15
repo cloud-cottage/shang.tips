@@ -2,7 +2,15 @@ en:
   name: English
   switch_to: 中文
   url: /
+  nav:
+    home: Home
+    about: About
+    whitepaper: Whitepaper
 zh_cn:
   name: 中文
   switch_to: English
   url: /cn
+  nav:
+    home: 首页
+    about: 关于
+    whitepaper: 白皮书
