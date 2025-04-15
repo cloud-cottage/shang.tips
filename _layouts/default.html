@@ -2,7 +2,13 @@
     <html lang="{{ page.lang | default: 'en' }}">
     <head>
       <meta charset="UTF-8">
-      <title>{{ page.title | default: site.title }}</title>
+      <title>
+        {% if page.url == "/" %}
+          {{ site.title }} | {{ site.description }}
+        {% else %}
+          {{ site.title }} | {{ page.title }}
+        {% endif %}
+      </title>
       <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
       <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
       <link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes="96x96" />

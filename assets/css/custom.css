@@ -2,7 +2,7 @@
 
 /* 全局样式 */
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
   color: #f0f0f0;
   background: linear-gradient(120deg, #159957, #3b72cd);
   margin: 0;
@@ -16,7 +16,7 @@ body {
   background: none;
 }
 .project-name {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 800;
   font-size: 2.8em;
   color: #eee;
@@ -107,6 +107,7 @@ max-width: 80%;
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.1em; /* 增加字符间距，值可调整 */
 }
 .main-content a {
   display: inline-block;
