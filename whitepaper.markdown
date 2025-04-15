@@ -2,7 +2,7 @@
 layout: default
 title: Whitepaper
 lang: en
-permalink: /en/whitepaper/
+permalink: /whitepaper/
 ---
 
 
