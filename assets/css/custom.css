@@ -16,17 +16,17 @@
     background: none;
   }
   .project-name {
-    font-family: 'Crimson Text', serif;
+    font-family: 'EB Garamond', serif;
     font-weight: 700;
     font-size: 2.8em;
-    color: #0a2540;
+    color: #eee;
     margin: 0;
   }
   .project-tagline {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Verdana', sans-serif;
     font-weight: 800;
     font-size: 1.3em;
-    color: #1a3c6d;
+    color: #ccc;
     margin: 0.5em 0;
   }
 
