@@ -41,17 +41,17 @@ body {
   display: inline-block;
 }
 .language-switcher a {
-  color: #00b4d8;
+  color: #3b72cd;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s;
 }
 .language-switcher a:hover {
-  color: #f7c948;
+  color: #fecc2f;
   text-decoration: underline;
 }
 .language-switcher span {
-  color: #e0e0e0;
+  color: #eee;
   font-weight: 600;
 }
 
@@ -75,7 +75,7 @@ body {
   display: inline;
 }
 .site-nav a {
-  color: #00b4d8;
+  color: #3b72cd;
   text-decoration: none;
   font-size: 1em;
   font-weight: 600;
@@ -95,8 +95,6 @@ max-width: 80%;
 .main-content {
   margin: 30px auto;
   padding: 20px;
-  background: linear-gradient(120deg, #3b72cd, #3366cc);
-  color: #f0f0f0;
 }
 .main-content h1,
 .main-content h2,
