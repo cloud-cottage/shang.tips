@@ -21,7 +21,7 @@ collections:
     
 # others
 show_downloads: false
-#sass:
+# sass:
 #  style: compressed
 #  sass_dir: assets/css
 cache_buster: 3
