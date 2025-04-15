@@ -85,9 +85,13 @@
     text-decoration: underline;
   }
 
+  .page-header,
+  .main-content,
+  .page-footer {
+  max-width: 80%;
+  }
   /* 内容区域 */
   .main-content {
-    max-width: 80%;
     margin: 30px auto;
     padding: 20px;
     background: linear-gradient(120deg, #3b72cd, #3366cc);
