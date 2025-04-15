@@ -93,6 +93,7 @@ max-width: 80%;
 }
 /* 内容区域 */
 .main-content {
+  text-align: left;
   margin: 30px auto;
   padding: 20px;
 }
@@ -118,4 +119,7 @@ max-width: 80%;
 
 .main-content a:hover {
   transform: rotate(2deg); /* 悬停时旋转2度 */
+}
+.main-content th, .main-content td {
+    border: none;
 }
