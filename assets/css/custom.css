@@ -2,7 +2,7 @@
 
 /* 全局样式 */
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Helvetica', sans-serif;
   color: #f0f0f0;
   background: linear-gradient(120deg, #159957, #3b72cd);
   margin: 0;
@@ -16,14 +16,14 @@ body {
   background: none;
 }
 .project-name {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Georgia', serif;
   font-weight: 800;
   font-size: 2.8em;
   color: #eee;
   margin: 0;
 }
 .project-tagline {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Georgia', serif;
   font-weight: 600;
   font-size: 1.3em;
   color: #ccc;
@@ -47,8 +47,8 @@ body {
   transition: color 0.3s;
 }
 .language-switcher a:hover {
-  color: #fecc2f;
-  text-decoration: underline;
+
+  transform: rotate(2deg); /* 悬停时旋转2度 */
 }
 .language-switcher span {
   color: #eee;
@@ -75,11 +75,14 @@ body {
   display: inline;
 }
 .site-nav a {
-  color: #3b72cd;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b72cd; /* 蓝色底色 */
+  color: #eee;
   text-decoration: none;
-  font-size: 1em;
-  font-weight: 600;
-  transition: color 0.3s;
+  border-radius: 5px; /* 圆角 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 阴影，增强按钮感 */
+  transition: transform 0.2s ease; /* 平滑过渡 */
 }
 .site-nav a:hover {
   color: #fecc2f;
@@ -100,29 +103,24 @@ max-width: 80%;
 .main-content h1,
 .main-content h2,
 .main-content h3 {
-  font-family: 'Verdana', sans-serif;
   color: #f7c948;
 }
 .main-content p {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
+  font-weight: 200;
+  padding: 24px 12px 24px 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  letter-spacing: 0.1em; /* 增加字符间距，值可调整 */
+  letter-spacing: 0.02em; /* 增加字符间距，值可调整 */
 }
 .main-content a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3b72cd; /* 蓝色底色 */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px; /* 圆角 */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 阴影，增强按钮感 */
-  transition: transform 0.2s ease; /* 平滑过渡 */
+  color: #3b72cd;
+  text-decoration: underline;
 }
 
 .main-content a:hover {
-  transform: rotate(2deg); /* 悬停时旋转2度 */
+  transition: color 0.3s;
+  color: #fecc2f;
+  scale: 1.02;
 }
-.main-content th, .main-content td {
+.main-content td {
     border: 0px solid white;
 }
