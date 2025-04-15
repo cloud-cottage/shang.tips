@@ -4,7 +4,7 @@
   body {
     font-family: 'Noto Sans', sans-serif;
     color: #f0f0f0;
-    background-color: #0a2540;
+    background: linear-gradient(120deg, #89cd3b, #b3f33b);
     margin: 0;
   }
 
@@ -88,10 +88,10 @@
 
   /* 内容区域 */
   .main-content {
-    max-width: 900px;
+    max-width: 80%;
     margin: 30px auto;
     padding: 20px;
-    background: transparent;
+    background: linear-gradient(120deg, #3b72cd, #3366cc);
     color: #f0f0f0;
   }
   .main-content h1,
