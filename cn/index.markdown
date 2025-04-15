@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom
 title: 壹赏 - 简极致丰，稳极致胜
 description: 简极致丰，稳极致胜
 permalink: /cn/
