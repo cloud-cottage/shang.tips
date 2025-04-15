@@ -1,7 +1,6 @@
 <nav class="site-nav">
   <ul>
     {% assign nav_items = site.data.locales[page.lang | default: 'en'].nav %}
-    <li>Debug nav: {{ nav_items | inspect }}</li>
     <li><a href="{% if page.lang == 'zh_cn' %}{{ site.baseurl }}/cn/{% else %}{{ site.baseurl }}/{% endif %}">{{ nav_items.home | default: 'Home' }}</a></li>
     <li><a href="{% if page.lang == 'zh_cn' %}{{ site.baseurl }}/cn/about/{% else %}{{ site.baseurl }}/about/{% endif %}">{{ nav_items.about | default: 'About' }}</a></li>
     <li><a href="{% if page.lang == 'zh_cn' %}{{ site.baseurl }}/cn/whitepaper/{% else %}{{ site.baseurl }}/whitepaper/{% endif %}">{{ nav_items.whitepaper | default: 'Whitepaper' }}</a></li>

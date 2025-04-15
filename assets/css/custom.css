@@ -1,14 +1,46 @@
-.language-switcher {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .language-switcher a {
-    color: #159957;
-    text-decoration: none;
-  }
-  .language-switcher a:hover {
-    text-decoration: underline;
-  }
-  .language-switcher span {
-    color: #666;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+     .language-switcher {
+       margin-top: 10px;
+       font-size: 16px;
+       font-family: 'Noto Sans', sans-serif;
+     }
+     .language-switcher a {
+       color: #159957;
+       text-decoration: none;
+     }
+     .language-switcher a:hover {
+       text-decoration: underline;
+     }
+     .language-switcher span {
+       color: #666;
+     }
+
+     .site-nav {
+       margin-top: 10px;
+       font-family: 'Noto Sans', sans-serif;
+     }
+     .site-nav ul {
+       list-style: none;
+       padding: 0;
+     }
+     .site-nav li {
+       display: inline;
+       margin-right: 10px;
+     }
+     .site-nav a {
+       color: #159957;
+       text-decoration: none;
+     }
+     .site-nav a:hover {
+       text-decoration: underline;
+     }
+
+     .project-name {
+       font-family: 'Crimson Text', serif;
+       font-weight: 700;
+     }
+     .project-tagline {
+       font-family: 'EB Garamond', serif;
+       font-weight: 800;
+     }
