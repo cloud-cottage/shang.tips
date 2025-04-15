@@ -4,7 +4,7 @@
   body {
     font-family: 'Noto Sans', sans-serif;
     color: #f0f0f0;
-    background: linear-gradient(120deg, #fecc2f, #3b72cd);
+    background: linear-gradient(120deg, #159957, #3b72cd);
     margin: 0;
   }
 
@@ -13,6 +13,7 @@
     padding: 2em;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: none;
   }
   .project-name {
     font-family: 'Crimson Text', serif;
