@@ -1,46 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-     .language-switcher {
-       margin-top: 10px;
-       font-size: 16px;
-       font-family: 'Noto Sans', sans-serif;
-     }
-     .language-switcher a {
-       color: #159957;
-       text-decoration: none;
-     }
-     .language-switcher a:hover {
-       text-decoration: underline;
-     }
-     .language-switcher span {
-       color: #666;
-     }
+  /* 全局字体 */
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+  }
 
-     .site-nav {
-       margin-top: 10px;
-       font-family: 'Noto Sans', sans-serif;
-     }
-     .site-nav ul {
-       list-style: none;
-       padding: 0;
-     }
-     .site-nav li {
-       display: inline;
-       margin-right: 10px;
-     }
-     .site-nav a {
-       color: #159957;
-       text-decoration: none;
-     }
-     .site-nav a:hover {
-       text-decoration: underline;
-     }
+  /* 标题 */
+  .project-name {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #fff;
+  }
 
-     .project-name {
-       font-family: 'Crimson Text', serif;
-       font-weight: 700;
-     }
-     .project-tagline {
-       font-family: 'EB Garamond', serif;
-       font-weight: 800;
-     }
+  .project-tagline {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #e0e0e0;
+  }
+
+  /* 语言切换器 */
+  .language-switcher {
+    margin-top: 15px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .language-switcher a {
+    color: #1a9b9d;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .language-switcher a:hover {
+    color: #155799;
+    text-decoration: underline;
+  }
+  .language-switcher span {
+    color: #555;
+    font-weight: 500;
+  }
+
+  /* 导航菜单 */
+  .site-nav {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  .site-nav li {
+    display: inline;
+  }
+  .site-nav a {
+    color: #1a9b9d;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .site-nav a:hover {
+    color: #155799;
+    text-decoration: underline;
+  }
+
+  /* 内容区域 */
+  .main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .main-content h1,
+  .main-content h2,
+  .main-content h3 {
+    font-family: 'Crimson Text', serif;
+    color: #333;
+  }

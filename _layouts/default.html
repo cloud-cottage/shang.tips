@@ -14,19 +14,13 @@
           {% for lang in site.languages %}
             {% assign lang_data = site.data.locales[lang] %}
             {% if lang != page.lang %}
-              {% if lang == 'en' %}
-                <a href="{{ site.baseurl }}{{ page.url | replace: '/cn', '' | remove: '/cn/' }}">{{ lang_data.switch_to }}</a>
-              {% else %}
-                <a href="{{ site.baseurl }}/cn{{ page.url | replace: '/cn', '' | remove: '/cn/' }}">{{ lang_data.switch_to }}</a>
-              {% endif %}
+              <a href="{% if lang == 'en' %}{{ site.baseurl }}{{ page.url | replace: '/cn', '' | remove: '/cn/' }}{% else %}{{ site.baseurl }}/cn{{ page.url | replace: '/cn', '' | remove: '/cn/' }}{% endif %}">{{ lang_data.switch_to | default: lang }}</a>
             {% else %}
-              <span>{{ lang_data.name }}</span>
+              <span>{{ lang_data.name | default: lang }}</span>
             {% endif %}
             {% unless forloop.last %} | {% endunless %}
           {% endfor %}
         </nav>
-        {% include header.html %}
-      </div>
       <div class="main-content">
         {{ content }}
       </div>
