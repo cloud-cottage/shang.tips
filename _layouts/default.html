@@ -25,5 +25,7 @@
         {{ content }}
       </div>
       {% include footer.html %}
+      <div>Debug page.lang: {{ page.lang }}</div>
+<div>Debug nav: {{ site.data.locales[page.lang | default: 'en'].nav | inspect }}</div>
     </body>
     </html>
