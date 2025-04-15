@@ -1,108 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-  /* 全局样式 */
-  body {
-    font-family: 'Noto Sans', sans-serif;
-    color: #f0f0f0;
-    background: linear-gradient(120deg, #159957, #3b72cd);
-    margin: 0;
-  }
+/* 全局样式 */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #f0f0f0;
+  background: linear-gradient(120deg, #159957, #3b72cd);
+  margin: 0;
+}
 
-  /* 标题区域 */
-  .page-header {
-    padding: 2em;
-    text-align: center;
-    background: none;
-  }
-  .project-name {
-    font-family: 'EB Garamond', serif;
-    font-weight: 700;
-    font-size: 2.8em;
-    color: #eee;
-    margin: 0;
-  }
-  .project-tagline {
-    font-family: 'Verdana', sans-serif;
-    font-weight: 800;
-    font-size: 1.3em;
-    color: #ccc;
-    margin: 0.5em 0;
-  }
+/* 标题区域 */
+.page-header {
+  padding: 2em;
+  text-align: center;
+  background: none;
+}
+.project-name {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  color: #eee;
+  margin: 0;
+}
+.project-tagline {
+  font-family: 'Verdana', sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+  color: #ccc;
+  margin: 0.5em 0;
+}
 
-  /* 语言切换器 */
-  .language-switcher {
-    margin: 1em auto;
-    font-size: 1em;
-    background: rgb(255, 255, 255, 0.1);
-    padding: 10px 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    display: inline-block;
-  }
-  .language-switcher a {
-    color: #00b4d8;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s;
-  }
-  .language-switcher a:hover {
-    color: #f7c948;
-    text-decoration: underline;
-  }
-  .language-switcher span {
-    color: #e0e0e0;
-    font-weight: 600;
-  }
+/* 语言切换器 */
+.language-switcher {
+  margin: 1em auto;
+  font-size: 1em;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+.language-switcher a {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.language-switcher a:hover {
+  color: #f7c948;
+  text-decoration: underline;
+}
+.language-switcher span {
+  color: #e0e0e0;
+  font-weight: 600;
+}
 
-  /* 导航菜单 */
-  .site-nav {
-    margin: 1em auto;
-    background: rgb(255, 255, 255, 0.1);
-    padding: 10px 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    display: inline-block;
-  }
-  .site-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-  }
-  .site-nav li {
-    display: inline;
-  }
-  .site-nav a {
-    color: #00b4d8;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: 600;
-    transition: color 0.3s;
-  }
-  .site-nav a:hover {
-    color: #fecc2f;
-    text-decoration: underline;
-  }
+/* 导航菜单 */
+.site-nav {
+  margin: 1em auto;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+.site-nav li {
+  display: inline;
+}
+.site-nav a {
+  color: #00b4d8;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.site-nav a:hover {
+  color: #fecc2f;
+  text-decoration: underline;
+}
 
-  .page-header,
-  .main-content,
-  .page-footer {
-  max-width: 80%;
-  }
-  /* 内容区域 */
-  .main-content {
-    margin: 30px auto;
-    padding: 20px;
-    background: linear-gradient(120deg, #3b72cd, #3366cc);
-    color: #f0f0f0;
-  }
-  .main-content h1,
-  .main-content h2,
-  .main-content h3 {
-    font-family: 'Crimson Text', serif;
-    color: #f7c948;
-  }
-  p {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
+.page-header,
+.main-content,
+.page-footer {
+max-width: 80%;
+}
+/* 内容区域 */
+.main-content {
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(120deg, #3b72cd, #3366cc);
+  color: #f0f0f0;
+}
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-family: 'Crimson Text', serif;
+  color: #f7c948;
+}
+.main-content p {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.main-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b72cd; /* 蓝色底色 */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* 圆角 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 阴影，增强按钮感 */
+  transition: transform 0.2s ease; /* 平滑过渡 */
+}
+
+.main-content a:hover {
+  transform: rotate(2deg); /* 悬停时旋转2度 */
+}
