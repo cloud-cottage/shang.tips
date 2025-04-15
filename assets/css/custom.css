@@ -123,5 +123,5 @@ max-width: 80%;
   transform: rotate(2deg); /* 悬停时旋转2度 */
 }
 .main-content th, .main-content td {
-    border: none;
+    border: 0px solid white;
 }
