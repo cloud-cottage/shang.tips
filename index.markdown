@@ -5,7 +5,6 @@ permalink: /
 lang: en
 ---
 {% include header.html %}
-{% include head_custom.html %}
 
 
 
