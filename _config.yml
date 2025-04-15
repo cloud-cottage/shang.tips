@@ -21,7 +21,7 @@ collections:
 
 # others
 show_downloads: false
-cache_buster: 3
+cache_buster: 4
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
