@@ -1,46 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:wght@800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-     .language-switcher {
-       margin-top: 10px;
-       font-size: 16px;
-       font-family: 'Noto Sans', sans-serif;
-     }
-     .language-switcher a {
-       color: #159957;
-       text-decoration: none;
-     }
-     .language-switcher a:hover {
-       text-decoration: underline;
-     }
-     .language-switcher span {
-       color: #666;
-     }
+  /* 全局样式 */
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #e0e0e0;
+    background-color: #1a1a2e;
+  }
 
-     .site-nav {
-       margin-top: 10px;
-       font-family: 'Noto Sans', sans-serif;
-     }
-     .site-nav ul {
-       list-style: none;
-       padding: 0;
-     }
-     .site-nav li {
-       display: inline;
-       margin-right: 10px;
-     }
-     .site-nav a {
-       color: #159957;
-       text-decoration: none;
-     }
-     .site-nav a:hover {
-       text-decoration: underline;
-     }
+  /* 标题区域 */
+  .page-header {
+    background: linear-gradient(90deg, #6b48ff, #00d4ff);
+    padding: 2.5em;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  }
+  .project-name {
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin: 0;
+  }
+  .project-tagline {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 1.4em;
+    color: #d0d0ff;
+    margin: 0.5em 0;
+  }
 
-     .project-name {
-       font-family: 'Crimson Text', serif;
-       font-weight: 700;
-     }
-     .project-tagline {
-       font-family: 'EB Garamond', serif;
-       font-weight: 800;
-     }
+  /* 语言切换器 */
+  .language-switcher {
+    margin: 1.5em auto;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+  }
+  .language-switcher a {
+    color: #39ff14;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .language-switcher a:hover {
+    color: #00d4ff;
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+  }
+  .language-switcher span {
+    color: #b0b0ff;
+    font-weight: 600;
+  }
+
+  /* 导航菜单 */
+  .site-nav {
+    margin: 1.5em auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+  }
+  .site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+  }
+  .site-nav li {
+    display: inline;
+  }
+  .site-nav a {
+    color: #39ff14;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .site-nav a:hover {
+    color: #00d4ff;
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+  }
+
+  /* 内容区域 */
+  .main-content {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+  }
+  .main-content h1,
+  .main-content h2,
+  .main-content h3 {
+    font-family: 'Crimson Text', serif;
+    color: #e0e0e0;
+  }
