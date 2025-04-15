@@ -4,13 +4,12 @@
   body {
     font-family: 'Noto Sans', sans-serif;
     color: #f0f0f0;
-    background: linear-gradient(120deg, #89cd3b, #b3f33b);
+    background: linear-gradient(120deg, #fecc2f, #3b72cd);
     margin: 0;
   }
 
   /* 标题区域 */
   .page-header {
-    background: linear-gradient(90deg, #f7c948, #ffd700);
     padding: 2em;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -82,7 +81,7 @@
     transition: color 0.3s;
   }
   .site-nav a:hover {
-    color: #f7c948;
+    color: #fecc2f;
     text-decoration: underline;
   }
 
