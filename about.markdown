@@ -4,8 +4,6 @@ title: About Shang
 lang: en
 permalink: /about/
 ---
-{% include header.html %}
-{% include head_custom.html %}
 
 
 # About Shang

@@ -4,7 +4,6 @@ title: Less is More, Peg is Core.
 permalink: /
 lang: en
 ---
-{% include header.html %}
 
 
 

@@ -4,8 +4,6 @@ title: Whitepaper
 lang: en
 permalink: /en/whitepaper/
 ---
-{% include header.html %}
-{% include head_custom.html %}
 
 
 # Shang Whitepaper

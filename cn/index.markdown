@@ -5,7 +5,6 @@ description: 简极致丰，稳极致胜
 permalink: /cn/
 lang: zh_cn
 ---
-{% include header.html %}
 
 # 简极致丰，稳极致胜
 
@@ -36,4 +35,3 @@ to do:
 - Twitter 打赏 Demo。Twitter 打赏案例。
 
 {% include hashtag.html %}
-{% include footer.html %}
