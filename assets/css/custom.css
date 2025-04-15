@@ -23,7 +23,6 @@ body {
   margin: 0;
 }
 .project-tagline {
-
   font-family: 'EB Garamond', serif;
   font-weight: 600;
   font-size: 1.3em;
@@ -101,10 +100,12 @@ max-width: 80%;
 .main-content h1,
 .main-content h2,
 .main-content h3 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Verdana', sans-serif;
   color: #f7c948;
 }
 .main-content p {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .main-content a {
