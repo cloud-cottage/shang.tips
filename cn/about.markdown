@@ -5,7 +5,6 @@ permalink: /cn/about/
 lang: zh_cn
 ---
 {% include header.html %}
-{% include head_custom.html %}
 
 # 关于壹赏
 
@@ -37,3 +36,4 @@ todo:
 - 展示 Twitter 打赏的简单流程图。
 - 嵌入 Twitter 话题标签（ #shang ），展示用户反馈。
 - 合作伙伴（如 Stripe）或区块链技术（如以太坊或 Layer 2）。
+{% include footer.html %}

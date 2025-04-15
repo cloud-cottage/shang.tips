@@ -5,7 +5,6 @@ permalink: /cn/whitepaper/
 lang: zh_cn
 ---
 {% include header.html %}
-{% include head_custom.html %}
 
 
 # 壹赏白皮书
@@ -59,3 +58,5 @@ todo:
 - Layer 2 如 Arbitrum 或 Optimism）和智能合约简介。
 - 审计计划
 - Github 仓库
+
+{% include footer.html %}

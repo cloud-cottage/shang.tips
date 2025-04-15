@@ -21,9 +21,9 @@ collections:
     
 # others
 show_downloads: false
-sass:
-  style: compressed
-  sass_dir: assets/css
+#sass:
+#  style: compressed
+#  sass_dir: assets/css
 cache_buster: 3
 plugins:
   - jekyll-redirect-from
