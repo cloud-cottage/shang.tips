@@ -6,6 +6,7 @@ body {
   color: #f0f0f0;
   background: linear-gradient(120deg, #159957, #3b72cd);
   margin: 0;
+  text-align: center;
 }
 
 /* 标题区域 */
