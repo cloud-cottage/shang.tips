@@ -12,21 +12,21 @@ body {
 /* 标题区域 */
 .page-header {
   padding: 2em;
-  text-align: center;
+  text-align: right;
   background: none;
 }
 .project-name {
   font-family: 'Georgia', serif;
   font-weight: 800;
-  font-size: 2.8em;
+  font-size: 3em;
   color: #eee;
   margin: 0;
 }
 .project-tagline {
-  font-family: 'Georgia', serif;
-  font-weight: 600;
-  font-size: 1.3em;
-  color: #ccc;
+  font-weight: 100;
+  font-size: 2em;
+  letter-spacing: 0.2em; 
+  color: #666;
   margin: 0.5em 0;
 }
 
@@ -58,10 +58,9 @@ body {
 /* 导航菜单 */
 .site-nav {
   margin: 1em auto;
-  background: rgb(255, 255, 255, 0.1);
+  
   padding: 10px 15px;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
   display: inline-block;
 }
 .site-nav ul {
@@ -72,16 +71,16 @@ body {
   gap: 20px;
 }
 .site-nav li {
+  background: rgb(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   display: inline;
 }
 .site-nav a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3b72cd; /* 蓝色底色 */
   color: #eee;
   text-decoration: none;
-  border-radius: 5px; /* 圆角 */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 阴影，增强按钮感 */
   transition: transform 0.2s ease; /* 平滑过渡 */
 }
 .site-nav a:hover {
@@ -103,6 +102,7 @@ max-width: 80%;
 .main-content h1,
 .main-content h2,
 .main-content h3 {
+  font-family: 'Georgia', serif;
   color: #f7c948;
 }
 .main-content p {
