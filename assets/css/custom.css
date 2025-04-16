@@ -122,5 +122,5 @@ max-width: 80%;
   scale: 1.02;
 }
 .main-content td {
-    border: 0px solid white;
+    border: 0px solid white transparent;
 }
