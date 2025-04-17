@@ -41,11 +41,18 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   display: inline-block;
 }
-.language-switcher :hover{
-  background: rgba(25, 25, 145, 0.1);
-  border-radius: 12px;
-  color:#fecc2f;
-  transform: rotate(-5deg); /* 逆时针旋转 5 度 */
+.language-switcher a {
+  color: #3b72cd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.language-switcher a:hover {
+
+  transform: rotate(2deg); /* 悬停时旋转2度 */
+}
+.language-switcher span {
+  color: #eee;
+  font-weight: 600;
 }
 
 /* 导航菜单 */
@@ -76,14 +83,14 @@ body {
   transform: rotate(-5deg); /* 逆时针旋转 5 度 */
 }
 
-.language-switcher a, .site-nav a {
+.site-nav a {
   display: inline-block;
   padding: 10px 20px;
   color: #eee;
   text-decoration: none;
   transition: transform 0.2s ease; /* 平滑过渡 */
 }
-.language-switcher a:hover, .site-nav a:hover {
+.site-nav a:hover {
   color: #f7c948;
   text-decoration: underline;
 }
