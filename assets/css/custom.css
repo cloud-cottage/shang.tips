@@ -42,16 +42,15 @@ body {
   display: inline-block;
 }
 .language-switcher a {
-  color: #3b72cd;
   text-decoration: none;
   transition: color 0.3s;
 }
 .language-switcher a:hover {
-
+  color:#fecc2f;
   transform: rotate(2deg); /* 悬停时旋转2度 */
 }
 .language-switcher span {
-  color: #eee;
+  color: #666;
   font-weight: 600;
 }
 
