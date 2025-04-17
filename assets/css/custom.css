@@ -23,8 +23,9 @@ body {
   margin: 0;
 }
 .project-tagline {
-  font-weight: 100;
   font-size: 2em;
+  font-weight: 100;
+  font-style: italic;
   letter-spacing: 0.2em; 
   color: #666;
   margin: 0.5em 0;
@@ -43,7 +44,6 @@ body {
 .language-switcher a {
   color: #3b72cd;
   text-decoration: none;
-  font-weight: 600;
   transition: color 0.3s;
 }
 .language-switcher a:hover {
@@ -58,9 +58,7 @@ body {
 /* 导航菜单 */
 .site-nav {
   margin: 1em auto;
-  
   padding: 10px 15px;
-
   display: inline-block;
 }
 .site-nav ul {
