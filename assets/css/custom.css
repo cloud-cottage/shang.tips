@@ -75,7 +75,16 @@ body {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   display: inline;
+  transition: transform 0.3s ease; /* 平滑过渡效果 */
 }
+
+.site-nav li:hover {
+  background: rgba(25, 25, 145, 0.1);
+  border-radius: 12px;
+  color:#fecc2f;
+  transform: rotate(-5deg); /* 逆时针旋转 5 度 */
+}
+
 .site-nav a {
   display: inline-block;
   padding: 10px 20px;
@@ -84,7 +93,7 @@ body {
   transition: transform 0.2s ease; /* 平滑过渡 */
 }
 .site-nav a:hover {
-  color: #fecc2f;
+  color: #f7c948;
   text-decoration: underline;
 }
 
