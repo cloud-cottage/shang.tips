@@ -17,13 +17,13 @@ body {
 }
 .project-name {
   font-family: 'Georgia', serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 3em;
   color: #eee;
   margin: 0;
 }
 .project-tagline {
-  font-weight: 100;
+  font-weight: 900;
   font-size: 2em;
   letter-spacing: 0.2em; 
   color: #666;
